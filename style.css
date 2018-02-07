@@ -1,0 +1,50 @@
+body {
+  background-color: purple;
+  /*background-image: url("foto_ij.JPG");*/
+}
+
+#image_profile {
+  border-radius: 50%;
+}
+
+h1, h2, p, a {
+  font-family: 'Playfair Display', serif;
+  /*font-family: 'Arimo', sans-serif;*/
+  /*font-family: 'Nanum Myeongjo', serif;*/
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul > li {
+  display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.container {
+  margin: 30px auto;
+}
+
+.fab {
+  size: 2x;
+  display: inline-block;
+}
+
+.card {
+  text-align: center;
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+  width: 600px;                               /* Set the width */
+  margin: 20px auto;                           /* Set automatic margins on right/left */
+}
+
