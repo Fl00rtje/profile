@@ -54,12 +54,12 @@ a {
 }
 
 #github:hover {
-  color: grey;
+  color: purple;
   transition: 0.5s;
 }
 
 #github:hover .github-icon {
-  color: grey;
+  color: purple;
   transition: 0.5s;
 }
 
