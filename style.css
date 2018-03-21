@@ -32,11 +32,6 @@ a {
   margin: 30px auto;
 }
 
-.fab {
-  size: 2x;
-  display: inline-block;
-}
-
 .card {
   text-align: center;
   background: white;                          /* White background */
@@ -45,6 +40,62 @@ a {
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
   width: 600px;                               /* Set the width */
-  margin: 20px auto;                           /* Set automatic margins on right/left */
+  margin: 20px auto;                          /* Set automatic margins on right/left */
 }
+
+/*.linkedin-icon {
+  color: #4267B2;
+}*/
+
+/*.facebook-icon {
+  color: #4267B2;
+}*/
+
+#linkedin:hover {
+  color: #0077B5;
+  transition: 0.5s;
+}
+
+#linkedin:hover .linkedin-icon {
+  color: #0077B5;
+  transition: 0.5s;
+}
+
+#github:hover {
+  color: grey;
+  transition: 0.5s;
+}
+
+#github:hover .github-icon {
+  color: grey;
+  transition: 0.5s;
+}
+
+#facebook:hover {
+  color: #4267B2;
+  transition: 0.5s;
+}
+
+#facebook:hover .facebook-icon {
+  color: #4267B2;
+  transition: 0.5s;
+}
+
+/*.facebook-icon:hover {
+  color: grey;
+}*/
+
+/*.linkedin-icon:hover {
+  color: grey;
+}*/
+
+/*#facebook {
+  color: #4267B2;
+}*/
+
+.github-icon {
+  size: 4x;
+  display: inline-block;
+}
+
 
